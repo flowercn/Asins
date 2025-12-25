@@ -1,0 +1,58 @@
+# Autosave files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+# Derived content-obscured files
+*.p
+
+# Compiled MEX files
+*.mex*
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Deployable archives
+*.ctf
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Code generation folders
+slprj/
+sccprj/
+codegen/
+
+# Cache files
+*.slxc
+
+# Cloud based storage dotfile
+.MATLABDriveTag
+
+# buildtool cache folder
+.buildtool/
+
+# SimBiology backup files
+*.sbproj.backup
+*.sbproj.bak
+
+SerialData/*.mat
+SerialData/*.pdf
+# 必须排除的大文件
+SerialData/*.mat
+SerialData/*.pdf
+# --- 删除这一行 ---
+# SerialData/ 
+# -----------------
+
+# --- 新增这些规则 ---
+# 忽略 SerialData 下的大数据文件
+SerialData/*.npy
+SerialData/*.txt
+SerialData/*.mat
+SerialData/*.pdf
+# 其他临时文件
+*.asv
+*.tmp
