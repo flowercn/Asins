@@ -1,0 +1,28 @@
+Tools/
+JS2025_006_XTZHB-code-2.4/
+STMF407_ETHERCAT_Master_V1.4/
+gtsam-develop/
+.vs/
+out/
+build/
+*.ipch
+*.obj
+*.bin
+
+
+# Qt 编译生成的临时文件夹
+build-*/
+debug/
+release/
+*.pro.user
+*.pro.user.*
+
+# 编译中间文件
+*.o
+*.moc
+*.obj
+*.exe
+Makefile*
+
+# Qt Creator 自动生成的备份
+*.autosave

@@ -1,0 +1,3 @@
+[submodule "ASINS-cpp"]
+	path = ASINS-cpp
+	url = https://github.com/flowercn/ASINS-cpp

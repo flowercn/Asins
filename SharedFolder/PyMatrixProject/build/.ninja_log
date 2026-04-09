@@ -1,0 +1,7 @@
+# ninja log v5
+2	675	1766051652227342860	tests/CMakeFiles/simple_test.dir/test_core.cpp.o	aecb630230f179ab
+1	1214	1766051652772664991	src/CMakeFiles/matrix_lib.dir/Matrix.cpp.o	3d6e1772e5c909a5
+1214	1227	1766051652785332627	lib/libmatrix_lib.a	ca56c45c87eda1f2
+1227	1275	1766051652832254771	bin/simple_test	bf4d4cbdd3025b62
+2	3184	1766051654741618774	src/CMakeFiles/pymatrix.dir/bindings.cpp.o	d58279585d848c13
+3184	5890	1766051657429211995	lib/pymatrix.cpython-312-x86_64-linux-gnu.so	606082c43fec6640
